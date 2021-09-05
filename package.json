@@ -1,0 +1,20 @@
+{
+  "name": "graphql.wtf-custom-scalar",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Jamie Barton",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/schema": "8.2.0",
+    "express": "4.17.1",
+    "express-graphql": "0.12.0",
+    "graphql": "15.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.12"
+  }
+}
